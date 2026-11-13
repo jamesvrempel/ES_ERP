@@ -57,7 +57,7 @@ jobs:
     # Dedicated scale set (fat cpu request) so the build+reinstall runs at full speed, uncontended
     # by the many thin test shards. Same CI image + /home/ci path + 127.0.0.1 DB as the shards,
     # so the packaged bench (and its venv) transplants cleanly.
-    runs-on: erpnext-arc-setup
+    runs-on: es_erp-arc-setup
     timeout-minutes: 40
     env:
       CI_DB_DATADIR: /home/ci/db-ram/data
@@ -143,7 +143,7 @@ jobs:
   test:
     name: Python Unit Tests
     needs: setup
-    runs-on: erpnext-arc
+    runs-on: es_erp-arc
     timeout-minutes: 60
     container:
       image: ghcr.io/frappe/erpnext-ci-mariadb:py3.11-node18-mariadb11.8
@@ -189,7 +189,7 @@ jobs:
         run: |
           su -m "${ERPNEXT_CI_USER:-frappe}" -s /bin/bash <<'EOF'
           cd ~/frappe-bench/
-          bench --site test_site run-parallel-tests --app erpnext \
+          bench --site test_site run-parallel-tests --app es_erp \
             --total-builds ${{ strategy.job-total }} \
             --build-number ${{ matrix.container }}
           EOF

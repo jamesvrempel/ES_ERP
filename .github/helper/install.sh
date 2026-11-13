@@ -38,7 +38,7 @@ githubbranch=${GITHUB_BASE_REF:-${GITHUB_REF##*/}}
 frappeuser=${FRAPPE_USER:-"frappe"}
 frappecommitish=${FRAPPE_BRANCH:-}
 
-# A stacked pull request targets another erpnext branch, which has no counterpart in frappe.
+# A stacked pull request targets another es_erp branch, which has no counterpart in frappe.
 # Fall back to version-15-hotfix so the bench is still installed. An explicit FRAPPE_BRANCH is trusted as
 # given, since it can be a commit sha rather than a branch.
 if [ -z "$frappecommitish" ]; then
@@ -361,12 +361,12 @@ cd ~/frappe-bench || exit
 
 if [ "$TYPE" != "patch" ]; then run_ci_step "Get payments app" bench get-app payments --branch "${githubbranch%-hotfix}"; fi
 
-# Opt-in: skip building erpnext's frontend assets. Server tests don't need them, but PDF
+# Opt-in: skip building es_erp's frontend assets. Server tests don't need them, but PDF
 # tests (print formats) do — they pass only if the PDF renderer ignores missing assets.
 # Enable with CI_SKIP_ERPNEXT_ASSETS=1 to test; if PDF tests fail, unset it.
-erpnext_get_app_args=()
-if [ "${CI_SKIP_ERPNEXT_ASSETS:-0}" = "1" ]; then erpnext_get_app_args=(--skip-assets); fi
-run_ci_step "Get erpnext app" bench get-app erpnext "${GITHUB_WORKSPACE}" "${erpnext_get_app_args[@]}"
+es_erp_get_app_args=()
+if [ "${CI_SKIP_ERPNEXT_ASSETS:-0}" = "1" ]; then es_erp_get_app_args=(--skip-assets); fi
+run_ci_step "Get es_erp app" bench get-app es_erp "${GITHUB_WORKSPACE}" "${es_erp_get_app_args[@]}"
 
 if [ "$TYPE" == "server" ]; then run_ci_step "Setup dev requirements" bench setup requirements --dev; fi
 

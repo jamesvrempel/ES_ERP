@@ -24,7 +24,7 @@ jobs:
     if: github.ref_name == 'develop' || startsWith(github.event.head_commit.message, 'chore(release):')
     uses: frappe/marketplace/.github/workflows/publish-release.yml@main
     with:
-      app: erpnext
+      app: es_erp
       branch: ${{ github.ref_name }}
       commit: ${{ github.sha }}
       channel: ${{ github.ref_name == 'develop' && 'nightly' || 'stable' }}

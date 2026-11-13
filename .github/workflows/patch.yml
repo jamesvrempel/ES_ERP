@@ -18,7 +18,7 @@ jobs:
       (github.event_name != 'pull_request'
       || (github.event.pull_request.user.login == 'mergify[bot]' && startsWith(github.head_ref, 'mergify/merge-queue/'))
       || (startsWith(github.base_ref, 'version-') && !endsWith(github.base_ref, '-hotfix')))
-    runs-on: erpnext-arc-patch
+    runs-on: es_erp-arc-patch
     timeout-minutes: 60
 
     name: Patch Test
@@ -64,18 +64,18 @@ jobs:
 
       # The v13 baseline backup is a fixed published file — cache it instead of re-downloading
       # it from the GitHub release every run.
-      - name: Cache erpnext v13 backup
+      - name: Cache es_erp v13 backup
         id: cache-v13
         uses: actions/cache@v4
         with:
-          path: /tmp/v13-erpnext.sql.gz
-          key: erpnext-v13-sql-gz
+          path: /tmp/v13-es_erp.sql.gz
+          key: es_erp-v13-sql-gz
 
-      - name: Download erpnext v13 backup
+      - name: Download es_erp v13 backup
         if: steps.cache-v13.outputs.cache-hit != 'true'
         run: |
           curl -fSL --retry 5 --retry-all-errors --retry-delay 5 \
-            -o /tmp/v13-erpnext.sql.gz \
+            -o /tmp/v13-es_erp.sql.gz \
             https://github.com/frappe/erpnext/releases/download/v13-baseline/v13-erpnext.sql.gz
 
       - name: Install
@@ -99,10 +99,10 @@ jobs:
           jq 'del(.install_apps)' ~/frappe-bench/sites/test_site/site_config.json > tmp.json
           mv tmp.json ~/frappe-bench/sites/test_site/site_config.json
 
-          bench --site test_site --force restore /tmp/v13-erpnext.sql.gz
+          bench --site test_site --force restore /tmp/v13-es_erp.sql.gz
 
           git -C "apps/frappe" remote set-url upstream https://github.com/frappe/frappe.git
-          git -C "apps/erpnext" remote set-url upstream https://github.com/frappe/erpnext.git
+          git -C "apps/es_erp" remote set-url upstream https://github.com/frappe/erpnext.git
 
           # Start every bench process except the background workers. If workers run during a
           # migrate, they pick up the orphan-link cleanup jobs it enqueues and race its schema
@@ -149,15 +149,15 @@ jobs:
 
             # Fetch and checkout branches
             retry git -C "apps/frappe" fetch --depth 1 upstream $branch_name:$branch_name
-            retry git -C "apps/erpnext" fetch --depth 1 upstream $branch_name:$branch_name
+            retry git -C "apps/es_erp" fetch --depth 1 upstream $branch_name:$branch_name
             git -C "apps/frappe" checkout -q -f $branch_name
-            git -C "apps/erpnext" checkout -q -f $branch_name
+            git -C "apps/es_erp" checkout -q -f $branch_name
 
             # Resetup env and install apps
             stop_bench
             rm -rf ~/frappe-bench/env
             bench -v setup env --python "$2"
-            bench pip install -e ./apps/erpnext
+            bench pip install -e ./apps/es_erp
             start_bench_without_workers
 
             bench --site test_site migrate
@@ -191,12 +191,12 @@ jobs:
           fi
           retry git -C "apps/frappe" fetch --depth 1 upstream "$frappe_ref"
           git -C "apps/frappe" checkout -q -f FETCH_HEAD
-          git -C "apps/erpnext" checkout -q -f "$GITHUB_SHA"
+          git -C "apps/es_erp" checkout -q -f "$GITHUB_SHA"
 
           stop_bench
           rm -rf ~/frappe-bench/env
           bench -v setup env --python python3.11
-          bench pip install -e ./apps/erpnext
+          bench pip install -e ./apps/es_erp
           start_bench_without_workers
 
           bench --site test_site migrate
