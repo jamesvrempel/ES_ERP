@@ -179,7 +179,7 @@ def validate_frappe_crm_sync():
 	CRMSettings = frappe.get_single("CRM Settings")
 	if not CRMSettings.enable_frappe_crm_data_synchronization:
 		frappe.throw(
-			_("Frappe CRM data synchronization is not enabled on ERPNext. Contact System Manager of ERPNext.")
+			_("Frappe CRM data synchronization is not enabled on ES ERP. Contact System Manager of ES ERP.")
 		)
 
 	# Skip allowed_users validation if CRM is installed on the site.
@@ -191,7 +191,7 @@ def validate_frappe_crm_sync():
 	if frappe.session.user not in allowed_users:
 		frappe.throw(
 			_(
-				"User not allowed to synchronize data from Frappe CRM on ERPNext. Contact System Manager of ERPNext."
+				"User not allowed to synchronize data from Frappe CRM on ES ERP. Contact System Manager of ES ERP."
 			),
 			exc=frappe.PermissionError,
 		)

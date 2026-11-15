@@ -12,7 +12,7 @@ from es_erp.setup.install import (
 )
 
 
-class TestERPNextAddress(FrappeTestCase):
+class TestESERPAddress(FrappeTestCase):
 	def setUp(self):
 		super().setUp()
 		self.addCleanup(frappe.db.rollback)

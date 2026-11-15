@@ -1,11 +1,11 @@
-# cz translations for ERPNext.
+# cz translations for ES ERP.
 # Copyright (C) 2026 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the ERPNext project.
+# This file is distributed under the same license as the ES ERP project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ERPNext VERSION\n"
+"Project-Id-Version: ES ERP VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
 "POT-Creation-Date: 2026-10-19 18:38+0053\n"
 "PO-Revision-Date: 2026-10-19 19:56+0053\n"
@@ -81,7 +81,7 @@ msgstr ""
 msgid ""
 "# Account Settings\n"
 "\n"
-"In ERPNext, Accounting features are configurable as per your business needs. Accounts Settings is the place to define some of your accounting preferences like:\n"
+"In ES ERP, Accounting features are configurable as per your business needs. Accounts Settings is the place to define some of your accounting preferences like:\n"
 "\n"
 " - Credit Limit and over billing settings\n"
 " - Taxation preferences\n"
@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "# Account Settings\n"
 "\n"
-"This is a crucial piece of configuration. There are various account settings in ERPNext to restrict and configure actions in the Accounting module.\n"
+"This is a crucial piece of configuration. There are various account settings in ES ERP to restrict and configure actions in the Accounting module.\n"
 "\n"
 "The following settings are avaialble for you to configure\n"
 "\n"
@@ -110,7 +110,7 @@ msgstr ""
 msgid ""
 "# Add an Existing Asset\n"
 "\n"
-"If you are just starting with ERPNext, you will need to enter Assets you already possess. You can add them as existing fixed assets in ERPNext. Please note that you will have to make a Journal Entry separately updating the opening balance in the fixed asset account."
+"If you are just starting with ES ERP, you will need to enter Assets you already possess. You can add them as existing fixed assets in ES ERP. Please note that you will have to make a Journal Entry separately updating the opening balance in the fixed asset account."
 msgstr ""
 
 #. Description of the Onboarding Step 'Create Your First Sales Invoice '
@@ -186,7 +186,7 @@ msgstr ""
 msgid ""
 "# Chart Of Accounts\n"
 "\n"
-"ERPNext sets up a simple chart of accounts for each Company you create, but you can modify it according to business and legal requirements."
+"ES ERP sets up a simple chart of accounts for each Company you create, but you can modify it according to business and legal requirements."
 msgstr ""
 
 #. Description of the Onboarding Step 'Check Stock Ledger'
@@ -195,7 +195,7 @@ msgstr ""
 #: es_erp/stock/onboarding_step/view_stock_projected_qty/view_stock_projected_qty.json:5
 msgid ""
 "# Check Stock Reports\n"
-"Based on the various stock transactions, you can get a host of one-click Stock Reports in ERPNext like Stock Ledger, Stock Balance, Projected Quantity, and Ageing analysis."
+"Based on the various stock transactions, you can get a host of one-click Stock Reports in ES ERP like Stock Ledger, Stock Balance, Projected Quantity, and Ageing analysis."
 msgstr ""
 
 #. Description of the Onboarding Step 'Cost Centers for Budgeting and Analysis'
@@ -205,7 +205,7 @@ msgid ""
 "\n"
 "While your Books of Accounts are framed to fulfill statutory requirements, you can set up Cost Center and Accounting Dimensions to address your companies reporting and budgeting requirements.\n"
 "\n"
-"Click here to learn more about how  <b>[Cost Center](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/cost-center)</b> and <b> [Dimensions](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-dimensions)</b> allow you to get advanced financial analytics reports from ERPNext."
+"Click here to learn more about how  <b>[Cost Center](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/cost-center)</b> and <b> [Dimensions](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-dimensions)</b> allow you to get advanced financial analytics reports from ES ERP."
 msgstr ""
 
 #. Description of the Onboarding Step 'Finished Items'
@@ -260,7 +260,7 @@ msgstr ""
 msgid ""
 "# Create a Letter Head\n"
 "\n"
-"A Letter Head contains your organization's name, logo, address, etc which appears at the header and footer portion in documents. You can learn more about Setting up Letter Head in ERPNext here.\n"
+"A Letter Head contains your organization's name, logo, address, etc which appears at the header and footer portion in documents. You can learn more about Setting up Letter Head in ES ERP here.\n"
 msgstr ""
 
 #. Description of the Onboarding Step 'Create your first Quotation'
@@ -312,7 +312,7 @@ msgid ""
 "\n"
 "Item is a product or a service offered by your company, or something you buy as a part of your supplies or raw materials.\n"
 "\n"
-"Items are integral to everything you do in ERPNext - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.\n"
+"Items are integral to everything you do in ES ERP - from billing, purchasing to managing inventory. Everything you buy or sell, whether it is a physical product or a service is an Item. Items can be stock, non-stock, variants, serialized, batched, assets, etc.\n"
 msgstr ""
 
 #. Description of the Onboarding Step 'Create an Item'
@@ -329,7 +329,7 @@ msgstr ""
 msgid ""
 "# Create first Purchase Order\n"
 "\n"
-"Purchase Order is at the heart of your buying transactions. In ERPNext, Purchase Order can can be created against a Purchase Material Request (indent) and Supplier Quotation as well.  Purchase Orders is also linked to Purchase Receipt and Purchase Invoices, allowing you to keep a birds-eye view on your purchase deals.\n"
+"Purchase Order is at the heart of your buying transactions. In ES ERP, Purchase Order can can be created against a Purchase Material Request (indent) and Supplier Quotation as well.  Purchase Orders is also linked to Purchase Receipt and Purchase Invoices, allowing you to keep a birds-eye view on your purchase deals.\n"
 "\n"
 msgstr ""
 
@@ -348,7 +348,7 @@ msgstr ""
 msgid ""
 "# Financial Statements\n"
 "\n"
-"In ERPNext, you can get crucial financial reports like [Balance Sheet] and [Profit and Loss] statements with a click of a button. You can run in the report for a different period and plot analytics charts premised on statement data. For more reports, check sections like Financial Statements, General Ledger, and Profitability reports.\n"
+"In ES ERP, you can get crucial financial reports like [Balance Sheet] and [Profit and Loss] statements with a click of a button. You can run in the report for a different period and plot analytics charts premised on statement data. For more reports, check sections like Financial Statements, General Ledger, and Profitability reports.\n"
 "\n"
 "<b>[Check Accounting reports](https://docs.erpnext.com/docs/v13/user/manual/en/accounts/accounting-reports)</b>"
 msgstr ""
@@ -378,7 +378,7 @@ msgstr ""
 msgid ""
 "# Import Data from Spreadsheet\n"
 "\n"
-"In ERPNext, you can easily migrate your historical data using spreadsheets. You can use it for migrating not just masters (like Customer, Supplier, Items), but also for transactions like (outstanding invoices, opening stock and accounting entries, etc)."
+"In ES ERP, you can easily migrate your historical data using spreadsheets. You can use it for migrating not just masters (like Customer, Supplier, Items), but also for transactions like (outstanding invoices, opening stock and accounting entries, etc)."
 msgstr ""
 
 #: es_erp/manufacturing/report/work_order_stock_report/work_order_stock_report.py:148
@@ -396,17 +396,17 @@ msgstr ""
 #: es_erp/stock/onboarding_step/create_a_stock_entry/create_a_stock_entry.json:5
 msgid ""
 "# Manage Stock Movements\n"
-"Stock entry allows you to register the movement of stock for various purposes like transfer, received, issues, repacked, etc. To address issues related to theft and pilferages,  you can always ensure that the movement of goods happens against a document reference Stock Entry in ERPNext.\n"
+"Stock entry allows you to register the movement of stock for various purposes like transfer, received, issues, repacked, etc. To address issues related to theft and pilferages,  you can always ensure that the movement of goods happens against a document reference Stock Entry in ES ERP.\n"
 "\n"
 "Let’s get a quick walk-through on the various scenarios covered in Stock Entry by watching [*this video*](https://www.youtube.com/watch?v=Njt107hlY3I)."
 msgstr ""
 
-#. Description of the Onboarding Step 'How to Navigate in ERPNext'
+#. Description of the Onboarding Step 'How to Navigate in ES ERP'
 #: es_erp/setup/onboarding_step/navigation_help/navigation_help.json:5
 msgid ""
-"# Navigation in ERPNext\n"
+"# Navigation in ES ERP\n"
 "\n"
-"Ease of navigating and browsing around the ERPNext is one of our core strengths. In the following video, you will learn how to reach a specific feature in ERPNext via module page or AwesomeBar."
+"Ease of navigating and browsing around the ES ERP is one of our core strengths. In the following video, you will learn how to reach a specific feature in ES ERP via module page or AwesomeBar."
 msgstr ""
 
 #. Description of the Onboarding Step 'Purchase an Asset'
@@ -426,7 +426,7 @@ msgstr ""
 msgid ""
 "# Review Manufacturing Settings\n"
 "\n"
-"In ERPNext, the Manufacturing module’s features are configurable as per your business needs. Manufacturing Settings is the place where you can set your preferences for:\n"
+"In ES ERP, the Manufacturing module’s features are configurable as per your business needs. Manufacturing Settings is the place where you can set your preferences for:\n"
 "\n"
 "- Capacity planning for allocating jobs to workstations\n"
 "- Raw-material consumption based on BOM or actual\n"
@@ -438,7 +438,7 @@ msgstr ""
 msgid ""
 "# Review Stock Settings\n"
 "\n"
-"In ERPNext, the Stock module’s features are configurable as per your business needs. Stock Settings is the place where you can set your preferences for:\n"
+"In ES ERP, the Stock module’s features are configurable as per your business needs. Stock Settings is the place where you can set your preferences for:\n"
 "- Default values for Item and Pricing\n"
 "- Default valuation method for inventory valuation\n"
 "- Set preference for serialization and batching of item\n"
@@ -470,7 +470,7 @@ msgstr ""
 msgid ""
 "# Set Up a Company\n"
 "\n"
-"A company is a legal entity for which you will set up your books of account and create accounting transactions. In ERPNext, you can create multiple companies, and establish relationships (group/subsidiary) among them.\n"
+"A company is a legal entity for which you will set up your books of account and create accounting transactions. In ES ERP, you can create multiple companies, and establish relationships (group/subsidiary) among them.\n"
 "\n"
 "Within the company master, you can capture various default accounts for that Company and set crucial settings related to the accounting methodology followed for a company.\n"
 msgstr ""
@@ -480,7 +480,7 @@ msgstr ""
 msgid ""
 "# Setting up Taxes\n"
 "\n"
-"ERPNext lets you configure your taxes so that they are automatically applied in your buying and selling transactions. You can configure them globally or even on Items. ERPNext taxes are pre-configured for most regions."
+"ES ERP lets you configure your taxes so that they are automatically applied in your buying and selling transactions. You can configure them globally or even on Items. ES ERP taxes are pre-configured for most regions."
 msgstr ""
 
 #. Description of the Onboarding Step 'Routing'
@@ -497,7 +497,7 @@ msgid ""
 "# Setup a Warehouse\n"
 "The warehouse can be your location/godown/store where you maintain the item's inventory, and receive/deliver them to various parties.\n"
 "\n"
-"In ERPNext, you can maintain a Warehouse in the tree structure, so that location and sub-location of an item can be tracked. Also, you can link a Warehouse to a specific Accounting ledger, where the real-time stock value of that warehouse’s item will be reflected."
+"In ES ERP, you can maintain a Warehouse in the tree structure, so that location and sub-location of an item can be tracked. Also, you can link a Warehouse to a specific Accounting ledger, where the real-time stock value of that warehouse’s item will be reflected."
 msgstr ""
 
 #. Description of the Onboarding Step 'Track Material Request'
@@ -514,7 +514,7 @@ msgstr ""
 #: es_erp/stock/onboarding_step/stock_opening_balance/stock_opening_balance.json:5
 msgid ""
 "# Update Stock Opening Balance\n"
-"It’s an entry to update the stock balance of an item, in a warehouse, on a date and time you are going live on ERPNext.\n"
+"It’s an entry to update the stock balance of an item, in a warehouse, on a date and time you are going live on ES ERP.\n"
 "\n"
 "Once opening stocks are updated, you can create transactions like manufacturing and stock deliveries, where this opening stock will be consumed."
 msgstr ""
@@ -524,16 +524,16 @@ msgstr ""
 msgid ""
 "# Updating Opening Balances\n"
 "\n"
-"Once you close the financial statement in previous accounting software, you can update the same as opening in your ERPNext's Balance Sheet accounts. This will allow you to get complete financial statements from ERPNext in the coming years, and discontinue the parallel accounting system right away."
+"Once you close the financial statement in previous accounting software, you can update the same as opening in your ES ERP's Balance Sheet accounts. This will allow you to get complete financial statements from ES ERP in the coming years, and discontinue the parallel accounting system right away."
 msgstr ""
 
 #. Description of the Onboarding Step 'View Warehouses'
 #: es_erp/stock/onboarding_step/view_warehouses/view_warehouses.json:4
 msgid ""
 "# View Warehouse\n"
-"In ERPNext the term 'warehouse' can be thought of as a storage location.\n"
+"In ES ERP the term 'warehouse' can be thought of as a storage location.\n"
 "\n"
-"Warehouses are arranged in ERPNext in a tree like structure, where multiple sub-warehouses can be grouped under a single warehouse.\n"
+"Warehouses are arranged in ES ERP in a tree like structure, where multiple sub-warehouses can be grouped under a single warehouse.\n"
 "\n"
 "In this step we will view the [**Warehouse Tree**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse#21-tree-view) to view the [**Warehouses**](https://docs.erpnext.com/docs/user/manual/en/stock/warehouse) that are set by default."
 msgstr ""
@@ -544,11 +544,11 @@ msgid ""
 "## Products and Services\n"
 "\n"
 "Depending on the nature of your business, you might be selling products or services to your clients or even both. \n"
-"ERPNext is optimized for itemized management of your sales and purchase.\n"
+"ES ERP is optimized for itemized management of your sales and purchase.\n"
 "\n"
 "The **Item Master**  is where you can add all your sales items. If you are in services, you can create an Item for each service that you offer. If you run a manufacturing business, the same master is used for keeping a record of raw materials, sub-assemblies etc.\n"
 "\n"
-"Completing the Item Master is very essential for the successful implementation of ERPNext. We have a brief video introducing the item master for you, you can watch it in the next step."
+"Completing the Item Master is very essential for the successful implementation of ES ERP. We have a brief video introducing the item master for you, you can watch it in the next step."
 msgstr ""
 
 #. Description of the Onboarding Step 'Create a Customer'
@@ -568,7 +568,7 @@ msgstr ""
 msgid ""
 "## Who is a Supplier?\n"
 "\n"
-"Suppliers are companies or individuals who provide you with products or services. ERPNext has comprehensive features for purchase cycles. \n"
+"Suppliers are companies or individuals who provide you with products or services. ES ERP has comprehensive features for purchase cycles. \n"
 "\n"
 "Let's quickly create a supplier with the minimal details required. You need the name of the supplier, assign the supplier to a group, and select the type of the supplier, viz. Company or Individual."
 msgstr ""
@@ -1247,8 +1247,8 @@ msgid ""
 "</pre>\n"
 msgstr ""
 
-#. Header text in the ERPNext Integrations Workspace
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:3
+#. Header text in the ES ERP Integrations Workspace
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:3
 msgid "<span class=\"h4\"><b>Integrations</b></span>"
 msgstr ""
 
@@ -1264,8 +1264,8 @@ msgstr ""
 msgid "<span class=\"h4\"><b>Quick Access</b></span>"
 msgstr ""
 
-#. Header text in the ERPNext Settings Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:3
+#. Header text in the ES ERP Settings Workspace
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:3
 msgid "<span class=\"h4\"><b>Settings</b></span>"
 msgstr ""
 
@@ -1278,8 +1278,8 @@ msgstr ""
 msgid "<span class=\"h4\"><b>Shortcuts</b></span>"
 msgstr ""
 
-#. Header text in the ERPNext Settings Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:3
+#. Header text in the ES ERP Settings Workspace
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:3
 msgid ""
 "<span class=\"h4\"><b>Your Shortcuts\n"
 "\t\t\t\n"
@@ -2298,12 +2298,12 @@ msgstr ""
 #. Name of a DocType
 #. Title of an Onboarding Step
 #. Label of a Link in the Accounting Workspace
-#. Label of a Link in the ERPNext Settings Workspace
-#. Label of a shortcut in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
+#. Label of a shortcut in the ES ERP Settings Workspace
 #: es_erp/accounts/doctype/accounts_settings/accounts_settings.json:686
 #: es_erp/accounts/onboarding_step/accounts_settings/accounts_settings.json:19
 #: es_erp/accounts/workspace/accounting/accounting.json:465
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:362
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:362
 msgid "Accounts Settings"
 msgstr "Nastavení účtu"
 
@@ -5844,7 +5844,7 @@ msgstr ""
 msgid "Auditor"
 msgstr "Auditor"
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_connector.py:68
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_connector.py:68
 msgid "Authentication Failed"
 msgstr ""
 
@@ -6716,7 +6716,7 @@ msgstr "Zůstatek musí být"
 #: es_erp/accounts/doctype/payment_request/payment_request.json:205
 #: es_erp/accounts/report/account_balance/account_balance.js:39
 #: es_erp/accounts/workspace/accounting/accounting.json:283
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:107
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:107
 #: es_erp/setup/doctype/employee/employee.json:409
 msgid "Bank"
 msgstr "Banka"
@@ -6921,7 +6921,7 @@ msgstr ""
 #: es_erp/accounts/doctype/bank_account/bank_account.json:233
 #: es_erp/accounts/doctype/bank_transaction/bank_transaction.json:267
 #: es_erp/accounts/doctype/journal_entry_account/journal_entry_account.json:188
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:32
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:32
 msgid "Bank Transaction"
 msgstr ""
 
@@ -6966,15 +6966,15 @@ msgstr ""
 msgid "Bank account cannot be named as {0}"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:154
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:154
 msgid "Bank account {0} already exists and could not be created again"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:158
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:158
 msgid "Bank accounts added"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:319
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:319
 msgid "Bank transaction creation error"
 msgstr ""
 
@@ -7857,8 +7857,8 @@ msgstr "Jméno značky"
 msgid "Breakdown"
 msgstr "Rozbor"
 
-#. Label of a shortcut in the ERPNext Integrations Workspace
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:222
+#. Label of a shortcut in the ES ERP Integrations Workspace
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:222
 msgid "Browse Apps"
 msgstr ""
 
@@ -8040,13 +8040,13 @@ msgstr ""
 #. Name of a DocType
 #. Title of an Onboarding Step
 #. Label of a Link in the Buying Workspace
-#. Label of a Link in the ERPNext Settings Workspace
-#. Label of a shortcut in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
+#. Label of a shortcut in the ES ERP Settings Workspace
 #: es_erp/accounts/doctype/purchase_invoice/purchase_invoice.py:358
 #: es_erp/buying/doctype/buying_settings/buying_settings.json:293
 #: es_erp/buying/onboarding_step/introduction_to_buying/introduction_to_buying.json:19
 #: es_erp/buying/workspace/buying/buying.json:180
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:392
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:392
 msgid "Buying Settings"
 msgstr "Nákup Nastavenl"
 
@@ -8111,11 +8111,11 @@ msgstr ""
 #. Name of a DocType
 #. Title of an Onboarding Step
 #. Label of a Link in the CRM Workspace
-#. Label of a Link in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
 #: es_erp/crm/doctype/crm_settings/crm_settings.json:145
 #: es_erp/crm/onboarding_step/crm_settings/crm_settings.json:19
 #: es_erp/crm/workspace/crm/crm.json:340
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:412
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:412
 msgid "CRM Settings"
 msgstr ""
 
@@ -8644,7 +8644,7 @@ msgstr ""
 msgid "Cannot retrieve link token for update. Check Error Log for more information"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:68
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:68
 msgid "Cannot retrieve link token. Check Error Log for more information"
 msgstr ""
 
@@ -9614,8 +9614,8 @@ msgstr ""
 msgid "Communication Channel"
 msgstr ""
 
-#. Label of a Card Break in the ERPNext Integrations Workspace
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:104
+#. Label of a Card Break in the ES ERP Integrations Workspace
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:104
 msgid "Communication Channels"
 msgstr ""
 
@@ -10550,8 +10550,8 @@ msgstr ""
 msgid "Copy Fields to Variant"
 msgstr ""
 
-#. Label of a Card Break in the ERPNext Settings Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:314
+#. Label of a Card Break in the ES ERP Settings Workspace
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:314
 msgid "Core"
 msgstr ""
 
@@ -10934,7 +10934,7 @@ msgstr ""
 msgid "Could not create Credit Note automatically, please uncheck 'Issue Credit Note' and submit again"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:367
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:367
 msgid "Could not detect the Company for updating Bank Accounts"
 msgstr ""
 
@@ -15235,18 +15235,18 @@ msgid "EAN-8"
 msgstr ""
 
 #. Name of a Workspace
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:13
-msgid "ERPNext Integrations"
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:13
+msgid "ES ERP Integrations"
 msgstr ""
 
 #. Name of a Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:13
-msgid "ERPNext Settings"
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:13
+msgid "ES ERP Settings"
 msgstr ""
 
 #. Label of a Data field in DocType 'Employee Group Table'
 #: es_erp/setup/doctype/employee_group_table/employee_group_table.json:31
-msgid "ERPNext User ID"
+msgid "ES ERP User ID"
 msgstr ""
 
 #. Option for the 'Update frequency of Project' (Select) field in DocType
@@ -15374,8 +15374,8 @@ msgstr ""
 msgid "Electronic Invoice Register"
 msgstr ""
 
-#. Label of a Card Break in the ERPNext Settings Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:73
+#. Label of a Card Break in the ES ERP Settings Workspace
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:73
 msgid "Email / Notifications"
 msgstr ""
 
@@ -15725,7 +15725,7 @@ msgid "Enable Discount Accounting for Selling"
 msgstr ""
 
 #. Label of a Check field in DocType 'Plaid Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:68
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:68
 msgid "Enable European Access"
 msgstr ""
 
@@ -17571,7 +17571,7 @@ msgid "Frappe CRM Allowed User"
 msgstr ""
 
 #: es_erp/crm/frappe_crm_api.py:172
-msgid "Frappe CRM data synchronization is not enabled on ERPNext. Contact System Manager of ERPNext."
+msgid "Frappe CRM data synchronization is not enabled on ES ERP. Contact System Manager of ES ERP."
 msgstr ""
 
 #: es_erp/setup/install.py:235
@@ -18461,10 +18461,10 @@ msgid "Give free item for every N quantity"
 msgstr ""
 
 #. Name of a DocType
-#. Label of a Link in the ERPNext Settings Workspace
-#. Label of a shortcut in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
+#. Label of a shortcut in the ES ERP Settings Workspace
 #: es_erp/setup/doctype/global_defaults/global_defaults.json:93
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:344
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:344
 msgid "Global Defaults"
 msgstr "Globální Výchozy"
 
@@ -19206,7 +19206,7 @@ msgstr ""
 
 #. Title of an Onboarding Step
 #: es_erp/setup/onboarding_step/navigation_help/navigation_help.json:18
-msgid "How to Navigate in ERPNext"
+msgid "How to Navigate in ES ERP"
 msgstr ""
 
 #. Label of a Float field in DocType 'Timesheet Detail'
@@ -19600,11 +19600,11 @@ msgid "If this item has variants, then it cannot be selected in sales orders etc
 msgstr ""
 
 #: es_erp/buying/doctype/buying_settings/buying_settings.js:27
-msgid "If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master."
+msgid "If this option is configured 'Yes', ES ERP will prevent you from creating a Purchase Invoice or Receipt without creating a Purchase Order first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Order' checkbox in the Supplier master."
 msgstr ""
 
 #: es_erp/buying/doctype/buying_settings/buying_settings.js:34
-msgid "If this option is configured 'Yes', ERPNext will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master."
+msgid "If this option is configured 'Yes', ES ERP will prevent you from creating a Purchase Invoice without creating a Purchase Receipt first. This configuration can be overridden for a particular supplier by enabling the 'Allow Purchase Invoice Creation Without Purchase Receipt' checkbox in the Supplier master."
 msgstr ""
 
 #: es_erp/manufacturing/doctype/manufacturing_settings/manufacturing_settings.js:10
@@ -19626,7 +19626,7 @@ msgid "If yes, then this warehouse will be used to store rejected materials"
 msgstr ""
 
 #: es_erp/stock/doctype/item/item.js:951
-msgid "If you are maintaining stock of this Item in your Inventory, ERPNext will make a stock ledger entry for each transaction of this item."
+msgid "If you are maintaining stock of this Item in your Inventory, ES ERP will make a stock ledger entry for each transaction of this item."
 msgstr ""
 
 #. Description of the 'Unreconciled Entries' (Section Break) field in DocType
@@ -23958,7 +23958,7 @@ msgstr ""
 msgid "Learn Sales Management"
 msgstr ""
 
-#. Label of an action in the Onboarding Step 'How to Navigate in ERPNext'
+#. Label of an action in the Onboarding Step 'How to Navigate in ES ERP'
 #: es_erp/setup/onboarding_step/navigation_help/navigation_help.json:3
 msgid "Learn about  Navigation options"
 msgstr ""
@@ -23967,7 +23967,7 @@ msgstr ""
 #. 'Accounts Settings'
 #: es_erp/accounts/doctype/accounts_settings/accounts_settings.json:312
 #, python-format
-msgid "Learn about <a href=\"https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ERPNext,Invoice%20against%20a%20primary%20Supplier.\">Common Party</a>"
+msgid "Learn about <a href=\"https://docs.erpnext.com/docs/v13/user/manual/en/accounts/articles/common_party_accounting#:~:text=Common%20Party%20Accounting%20in%20ES%20ERP,Invoice%20against%20a%20primary%20Supplier.\">Common Party</a>"
 msgstr ""
 
 #. Label of an action in the Onboarding Step 'Updating Opening Balances'
@@ -24130,7 +24130,7 @@ msgstr ""
 
 #. Title of the Module Onboarding 'Home'
 #: es_erp/setup/module_onboarding/home/home.json:46
-msgid "Let's begin your journey with ERPNext"
+msgid "Let's begin your journey with ES ERP"
 msgstr ""
 
 #. Label of an action in the Onboarding Step 'Purchase an Asset'
@@ -24311,7 +24311,7 @@ msgstr ""
 msgid "Link Options"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:15
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:15
 msgid "Link a new bank account"
 msgstr ""
 
@@ -25214,12 +25214,12 @@ msgstr ""
 #. Name of a DocType
 #. Title of an Onboarding Step
 #. Label of a Link in the Manufacturing Workspace
-#. Label of a Link in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
 #: es_erp/manufacturing/doctype/manufacturing_settings/manufacturing_settings.json:263
 #: es_erp/manufacturing/onboarding_step/explore_manufacturing_settings/explore_manufacturing_settings.json:19
 #: es_erp/manufacturing/onboarding_step/introduction_to_manufacturing/introduction_to_manufacturing.json:17
 #: es_erp/manufacturing/workspace/manufacturing/manufacturing.json:121
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:402
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:402
 msgid "Manufacturing Settings"
 msgstr "Výrobní nastavent"
 
@@ -26166,8 +26166,8 @@ msgstr ""
 msgid "Modified On"
 msgstr ""
 
-#. Label of a Card Break in the ERPNext Settings Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:354
+#. Label of a Card Break in the ES ERP Settings Workspace
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:354
 msgid "Module Settings"
 msgstr ""
 
@@ -30644,7 +30644,7 @@ msgstr ""
 #. Label of a Card Break in the Payables Workspace
 #. Label of a Card Break in the Receivables Workspace
 #. Option for the 'Hold Type' (Select) field in DocType 'Supplier'
-#. Label of a Card Break in the ERPNext Integrations Workspace
+#. Label of a Card Break in the ES ERP Integrations Workspace
 #: es_erp/accounts/doctype/cashier_closing/cashier_closing.json:103
 #: es_erp/accounts/doctype/payment_reconciliation/payment_reconciliation.json:98
 #: es_erp/accounts/doctype/pos_invoice/pos_invoice.json:1082
@@ -30657,7 +30657,7 @@ msgstr ""
 #: es_erp/accounts/workspace/receivables/receivables.json:48
 #: es_erp/buying/doctype/supplier/supplier.json:269
 #: es_erp/buying/doctype/supplier/supplier_dashboard.py:12
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:190
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:190
 #: es_erp/selling/doctype/customer/customer_dashboard.py:21
 #: es_erp/selling/page/point_of_sale/pos_past_order_summary.js:30
 msgid "Payments"
@@ -31109,21 +31109,21 @@ msgid "Plaid Access Token"
 msgstr ""
 
 #. Label of a Data field in DocType 'Plaid Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:36
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:36
 msgid "Plaid Client ID"
 msgstr ""
 
 #. Label of a Select field in DocType 'Plaid Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:48
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:48
 msgid "Plaid Environment"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:162
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:186
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:162
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:186
 msgid "Plaid Link Failed"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:260
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:260
 msgid "Plaid Link Refresh Required"
 msgstr ""
 
@@ -31132,20 +31132,20 @@ msgid "Plaid Link Updated"
 msgstr ""
 
 #. Label of a Password field in DocType 'Plaid Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:42
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:42
 msgid "Plaid Secret"
 msgstr ""
 
 #. Label of a Link in the Accounting Workspace
 #. Name of a DocType
-#. Label of a Link in the ERPNext Integrations Workspace
+#. Label of a Link in the ES ERP Integrations Workspace
 #: es_erp/accounts/workspace/accounting/accounting.json:337
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:76
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:198
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:76
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:198
 msgid "Plaid Settings"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:235
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:235
 msgid "Plaid transactions sync error"
 msgstr ""
 
@@ -31404,7 +31404,7 @@ msgstr ""
 msgid "Please check the error message and take necessary actions to fix the error and then restart the reposting again."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_connector.py:65
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_connector.py:65
 msgid "Please check your Plaid client ID and secret values"
 msgstr ""
 
@@ -31749,7 +31749,7 @@ msgstr "Prosím, vytáhněte položky z dodací list"
 msgid "Please rectify and try again."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:259
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:259
 msgid "Please refresh or reset the Plaid linking of the Bank {}."
 msgstr ""
 
@@ -32337,7 +32337,7 @@ msgstr ""
 msgid "Please set {0} to {1}, the same account that was used in the original invoice {2}."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:105
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:105
 msgid "Please setup and enable a group account with the Account Type - {0} for the company {1}"
 msgstr ""
 
@@ -33888,10 +33888,10 @@ msgstr "Správce projekty"
 
 #. Name of a DocType
 #. Label of a Link in the Projects Workspace
-#. Label of a Link in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
 #: es_erp/projects/doctype/projects_settings/projects_settings.json:43
 #: es_erp/projects/workspace/projects/projects.json:187
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:422
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:422
 msgid "Projects Settings"
 msgstr ""
 
@@ -37465,7 +37465,7 @@ msgstr ""
 msgid "Reset Company Default Values"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:19
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:19
 msgid "Reset Plaid Link"
 msgstr ""
 
@@ -40720,7 +40720,7 @@ msgstr ""
 msgid "Select a Supplier from the Default Suppliers of the items below. On selection, a Purchase Order will be made against items belonging to the selected Supplier only."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:161
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:161
 msgid "Select a company"
 msgstr ""
 
@@ -40913,12 +40913,12 @@ msgstr ""
 #. Name of a DocType
 #. Title of an Onboarding Step
 #. Label of a Link in the Selling Workspace
-#. Label of a Link in the ERPNext Settings Workspace
-#. Label of a shortcut in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
+#. Label of a shortcut in the ES ERP Settings Workspace
 #: es_erp/selling/doctype/selling_settings/selling_settings.json:246
 #: es_erp/selling/onboarding_step/selling_settings/selling_settings.json:19
 #: es_erp/selling/workspace/selling/selling.json:224
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:382
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:382
 #: es_erp/stock/doctype/stock_settings/stock_settings.py:237
 msgid "Selling Settings"
 msgstr "Prodejní Nastavenr"
@@ -42714,8 +42714,8 @@ msgstr "Mal$1"
 msgid "Smoothing Constant"
 msgstr ""
 
-#. Label of a Link in the ERPNext Integrations Workspace
-#: es_erp/erpnext_integrations/workspace/erpnext_integrations/erpnext_integrations.json:64
+#. Label of a Link in the ES ERP Integrations Workspace
+#: es_erp/es_erp_integrations/workspace/es_erp_integrations/es_erp_integrations.json:64
 msgid "Social Login"
 msgstr ""
 
@@ -43576,13 +43576,13 @@ msgid "Stock Reserved Qty (in Stock UOM)"
 msgstr ""
 
 #. Label of a Section Break field in DocType 'Company'
-#. Label of a Link in the ERPNext Settings Workspace
-#. Label of a shortcut in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
+#. Label of a shortcut in the ES ERP Settings Workspace
 #. Name of a DocType
 #. Label of a Link in the Stock Workspace
 #: es_erp/selling/doctype/selling_settings/selling_settings.py:90
 #: es_erp/setup/doctype/company/company.json:465
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:372
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:372
 #: es_erp/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:503
 #: es_erp/stock/doctype/stock_settings/stock_settings.json:537
 #: es_erp/stock/workspace/stock/stock.json:216
@@ -44860,10 +44860,10 @@ msgstr ""
 msgid "Support Search Source"
 msgstr ""
 
-#. Label of a Link in the ERPNext Settings Workspace
+#. Label of a Link in the ES ERP Settings Workspace
 #. Name of a DocType
 #. Label of a Link in the Support Workspace
-#: es_erp/setup/workspace/erpnext_settings/erpnext_settings.json:432
+#: es_erp/setup/workspace/es_erp_settings/es_erp_settings.json:432
 #: es_erp/support/doctype/support_settings/support_settings.json:171
 #: es_erp/support/workspace/support/support.json:147
 msgid "Support Settings"
@@ -44898,7 +44898,7 @@ msgstr ""
 msgid "Switch Between Payment Modes"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:23
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:23
 msgid "Sync Now"
 msgstr "Sync teS"
 
@@ -44906,12 +44906,12 @@ msgstr "Sync teS"
 msgid "Sync Serial No Status"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:36
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:36
 msgid "Sync Started"
 msgstr ""
 
 #. Label of a Check field in DocType 'Plaid Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:30
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:30
 msgid "Synchronize all accounts every hour"
 msgstr ""
 
@@ -46410,7 +46410,7 @@ msgstr ""
 msgid "The stock has been reserved for the following Items and Warehouses, un-reserve the same to {0} the Stock Reconciliation: <br /><br /> {1}"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:37
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:37
 msgid "The sync has started in the background, please check the {0} list for new records."
 msgstr ""
 
@@ -46552,7 +46552,7 @@ msgstr "Není nic upravovat."
 msgid "There must be atleast 1 Finished Good in this Stock Entry"
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:161
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:161
 msgid "There was an error creating Bank Account while linking with Plaid."
 msgstr ""
 
@@ -46560,16 +46560,16 @@ msgstr ""
 msgid "There was an error saving the document."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:258
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:258
 msgid "There was an error syncing transactions."
 msgstr ""
 
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:183
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.py:183
 msgid "There was an error updating Bank Account {} while linking with Plaid."
 msgstr ""
 
 #: es_erp/accounts/doctype/bank/bank.js:112
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:119
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.js:119
 msgid "There was an issue connecting to Plaid's authentication server. Check browser console for more information"
 msgstr ""
 
@@ -46624,7 +46624,7 @@ msgid "This action will stop future billing. Are you sure you want to cancel thi
 msgstr ""
 
 #: es_erp/accounts/doctype/bank_account/bank_account.js:35
-msgid "This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?"
+msgid "This action will unlink this account from any external service integrating ES ERP with your bank accounts. It cannot be undone. Are you certain ?"
 msgstr ""
 
 #: es_erp/assets/doctype/asset/asset.py:371
@@ -46711,8 +46711,8 @@ msgid "This is a root territory and cannot be edited."
 msgstr "To je kořen území a nelze upravovat."
 
 #: es_erp/portal/doctype/homepage/homepage.py:31
-msgid "This is an example website auto-generated from ERPNext"
-msgstr "To je příklad webové stránky automaticky generované z ERPNext"
+msgid "This is an example website auto-generated from ES ERP"
+msgstr "To je příklad webové stránky automaticky generované z ES ERP"
 
 #: es_erp/stock/doctype/item/item_dashboard.py:7
 msgid "This is based on stock movement. See {0} for details"
@@ -49059,7 +49059,7 @@ msgstr "Dokud"
 msgid "Unverified"
 msgstr ""
 
-#: es_erp/erpnext_integrations/utils.py:22
+#: es_erp/es_erp_integrations/utils.py:22
 msgid "Unverified Webhook Data"
 msgstr ""
 
@@ -49455,7 +49455,7 @@ msgid "User has not applied rule on the invoice {0}"
 msgstr ""
 
 #: es_erp/crm/frappe_crm_api.py:183
-msgid "User not allowed to synchronize data from Frappe CRM on ERPNext. Contact System Manager of ERPNext."
+msgid "User not allowed to synchronize data from Frappe CRM on ES ERP. Contact System Manager of ES ERP."
 msgstr ""
 
 #: es_erp/setup/doctype/employee/employee.py:186
@@ -50298,7 +50298,7 @@ msgid "Vouchers"
 msgstr ""
 
 #: es_erp/patches/v15_0/remove_exotel_integration.py:32
-msgid "WARNING: Exotel app has been separated from ERPNext, please install the app to continue using Exotel integration."
+msgid "WARNING: Exotel app has been separated from ES ERP, please install the app to continue using Exotel integration."
 msgstr ""
 
 #. Label of a Link field in DocType 'Purchase Invoice Item'
@@ -51471,7 +51471,7 @@ msgstr ""
 
 #. Success message of the Module Onboarding 'Home'
 #: es_erp/setup/module_onboarding/home/home.json:45
-msgid "You're ready to start your journey with ERPNext"
+msgid "You're ready to start your journey with ES ERP"
 msgstr ""
 
 #. Name of a report
@@ -51538,7 +51538,7 @@ msgid "Zip File"
 msgstr ""
 
 #: es_erp/stock/reorder_item.py:368
-msgid "[Important] [ERPNext] Auto Reorder Errors"
+msgid "[Important] [ES ERP] Auto Reorder Errors"
 msgstr ""
 
 #: es_erp/controllers/status_updater.py:257
@@ -51595,7 +51595,7 @@ msgstr ""
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:49
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:49
 msgid "development"
 msgstr ""
 
@@ -51744,7 +51744,7 @@ msgstr ""
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:49
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:49
 msgid "production"
 msgstr ""
 
@@ -51792,7 +51792,7 @@ msgstr ""
 
 #. Option for the 'Plaid Environment' (Select) field in DocType 'Plaid
 #. Settings'
-#: es_erp/erpnext_integrations/doctype/plaid_settings/plaid_settings.json:49
+#: es_erp/es_erp_integrations/doctype/plaid_settings/plaid_settings.json:49
 msgid "sandbox"
 msgstr ""
 

@@ -4,7 +4,7 @@ import frappe
 
 
 def get_webhook_address(connector_name, method, exclude_uri=False, force_https=False):
-	endpoint = f"es_erp.erpnext_integrations.connectors.{connector_name}.{method}"
+	endpoint = f"es_erp.es_erp_integrations.connectors.{connector_name}.{method}"
 
 	if exclude_uri:
 		return endpoint

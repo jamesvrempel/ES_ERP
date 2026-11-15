@@ -56,7 +56,7 @@ es_erp.integrations.refreshPlaidLink = class refreshPlaidLink {
 
 	async get_link_token_for_update() {
 		const token = frappe.xcall(
-			"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.get_link_token_for_update",
+			"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.get_link_token_for_update",
 			{ access_token: this.access_token }
 		);
 		if (!token) {
@@ -119,7 +119,7 @@ es_erp.integrations.refreshPlaidLink = class refreshPlaidLink {
 	plaid_success(token, response) {
 		frappe
 			.xcall(
-				"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.update_bank_account_ids",
+				"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.update_bank_account_ids",
 				{
 					response: response,
 				}
