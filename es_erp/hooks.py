@@ -1,12 +1,12 @@
 app_name = "es_erp"
 app_title = "ES ERP"
-app_publisher = "Frappe Technologies Pvt. Ltd."
+app_publisher = "Enterprise Systems AU"
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
 app_color = "#e74c3c"
 app_email = "hello@frappe.io"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/jamesvrempel/ES_ERP"
 app_logo_url = "/assets/es_erp/images/es_erp-logo.svg"
 
 
@@ -499,8 +499,8 @@ email_brand_image = "assets/es_erp/images/es_erp-logo.jpg"
 default_mail_footer = """
 	<span>
 		Sent via
-		<a class="text-muted" href="https://frappe.io/erpnext?source=via_email_footer" target="_blank">
-			ERPNext
+		<a class="text-muted" href="https://enterprisesystems.com.au" target="_blank">
+			ES ERP
 		</a>
 	</span>
 """
