@@ -46,7 +46,7 @@ class TestBankTransaction(FrappeTestCase):
 		add_transactions(bank_account=self.bank_account)
 		add_vouchers(gl_account=self.gl_account)
 
-	# This test checks if ERPNext is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
+	# This test checks if ES ERP is able to provide a linked payment for a bank transaction based on the amount of the bank transaction.
 	def test_linked_payments(self):
 		bank_transaction = frappe.get_doc(
 			"Bank Transaction",
@@ -174,7 +174,7 @@ class TestBankTransaction(FrappeTestCase):
 		duplicate.insert()
 		self.assertEqual(duplicate.status, "Pending")
 
-	# Check if ERPNext can correctly filter a linked payments based on the debit/credit amount
+	# Check if ES ERP can correctly filter a linked payments based on the debit/credit amount
 	def test_debit_credit_output(self):
 		bank_transaction = frappe.get_doc(
 			"Bank Transaction",

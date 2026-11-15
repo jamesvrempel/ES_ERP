@@ -22,7 +22,7 @@ frappe.ui.form.on("Plaid Settings", {
 
 			frm.add_custom_button(__("Sync Now"), () => {
 				frappe.call({
-					method: "es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.enqueue_synchronization",
+					method: "es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.enqueue_synchronization",
 					freeze: true,
 					callback: () => {
 						let bank_transaction_link = frappe.utils.get_form_link(
@@ -138,7 +138,7 @@ es_erp.integrations.plaidLink = class plaidLink {
 				me.company = data.company;
 				frappe
 					.xcall(
-						"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.add_institution",
+						"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.add_institution",
 						{
 							token: token,
 							response: response,
@@ -146,7 +146,7 @@ es_erp.integrations.plaidLink = class plaidLink {
 					)
 					.then((result) => {
 						frappe.xcall(
-							"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.add_bank_accounts",
+							"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.add_bank_accounts",
 							{
 								response: response,
 								bank: result,

@@ -11,7 +11,7 @@ from frappe.utils import cint
 from frappe.utils.data import make_filter_tuple
 
 
-class ERPNextAddress(Address):
+class ESERPAddress(Address):
 	def validate(self):
 		self.validate_reference()
 		self.update_compnay_address()

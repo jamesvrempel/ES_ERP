@@ -11,7 +11,7 @@ from frappe.model.naming import append_number_if_name_exists
 from frappe.utils import add_months, formatdate, getdate, sbool, today
 from plaid.errors import ItemError
 
-from es_erp.erpnext_integrations.doctype.plaid_settings.plaid_connector import PlaidConnector
+from es_erp.es_erp_integrations.doctype.plaid_settings.plaid_connector import PlaidConnector
 
 
 class PlaidSettings(Document):
@@ -361,7 +361,7 @@ def enqueue_synchronization():
 
 	for plaid_account in plaid_accounts:
 		frappe.enqueue(
-			"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.sync_transactions",
+			"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.sync_transactions",
 			bank=plaid_account.bank,
 			bank_account=plaid_account.name,
 		)

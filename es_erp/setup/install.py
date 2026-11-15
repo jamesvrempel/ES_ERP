@@ -53,7 +53,7 @@ def check_frappe_version():
 		return
 
 	click.secho(
-		f"You're attempting to install ERPNext version {es_erp_version} with Frappe version {frappe_version}. "
+		f"You're attempting to install ES ERP version {es_erp_version} with Frappe version {frappe_version}. "
 		"This is not supported and will result in broken install. Switch to correct branch before installing.",
 		fg="red",
 	)
@@ -175,7 +175,7 @@ def create_custom_company_links():
 	"""Add link fields to Company in Email Account and Communication.
 
 	These DocTypes are provided by the Frappe Framework but need to be associated
-	with a company in ERPNext to allow for multitenancy. I.e. one company should
+	with a company in ES ERP to allow for multitenancy. I.e. one company should
 	not be able to access emails and communications from another company.
 	"""
 	create_custom_fields(
@@ -283,7 +283,7 @@ def add_standard_navbar_items():
 
 
 def add_app_name():
-	frappe.db.set_single_value("System Settings", "app_name", "ERPNext")
+	frappe.db.set_single_value("System Settings", "app_name", "ES ERP")
 
 
 def hide_workspaces():

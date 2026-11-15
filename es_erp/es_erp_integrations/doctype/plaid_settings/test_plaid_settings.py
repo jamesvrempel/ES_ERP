@@ -8,8 +8,8 @@ from unittest.mock import MagicMock, patch
 import frappe
 from frappe.utils.response import json_handler
 
-from es_erp.erpnext_integrations.doctype.plaid_settings.plaid_connector import PlaidConnector
-from es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings import (
+from es_erp.es_erp_integrations.doctype.plaid_settings.plaid_connector import PlaidConnector
+from es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings import (
 	add_account_subtype,
 	add_account_type,
 	add_bank_accounts,
@@ -191,7 +191,7 @@ class TestPlaidSettings(unittest.TestCase):
 		self.assertFalse(frappe.db.get_value("Bank Account", party_account.name, "integration_id"))
 
 
-PLAID_SETTINGS = "es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings"
+PLAID_SETTINGS = "es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings"
 
 
 def link_test_bank_account(account_id: str) -> str:

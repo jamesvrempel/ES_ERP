@@ -1,5 +1,5 @@
 app_name = "es_erp"
-app_title = "ERPNext"
+app_title = "ES ERP"
 app_publisher = "Frappe Technologies Pvt. Ltd."
 app_description = """ERP made simple"""
 app_icon = "fa fa-th"
@@ -14,7 +14,7 @@ add_to_apps_screen = [
 	{
 		"name": "es_erp",
 		"logo": "/assets/es_erp/images/es_erp-logo-blue.png",
-		"title": "ERPNext",
+		"title": "ES ERP",
 		"route": "/app/home",
 		"has_permission": "es_erp.check_app_permission",
 	}
@@ -44,7 +44,7 @@ doctype_list_js = {
 	],
 }
 
-override_doctype_class = {"Address": "es_erp.accounts.custom.address.ERPNextAddress"}
+override_doctype_class = {"Address": "es_erp.accounts.custom.address.ESERPAddress"}
 
 override_whitelisted_methods = {"frappe.www.contact.send_message": "es_erp.templates.utils.send_message"}
 
@@ -449,7 +449,7 @@ scheduler_events = {
 		"es_erp.utilities.bulk_transaction.retry",
 		"es_erp.projects.doctype.project.project.collect_project_status",
 		"es_erp.projects.doctype.project.project.project_status_update_reminder",
-		"es_erp.erpnext_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
+		"es_erp.es_erp_integrations.doctype.plaid_settings.plaid_settings.automatic_synchronization",
 		"es_erp.utilities.doctype.video.video.update_youtube_data",
 	],
 	"daily": [],
@@ -623,7 +623,7 @@ user_data_fields = [
 	},
 ]
 
-# ERPNext doctypes for Global Search
+# ES ERP doctypes for Global Search
 global_search_doctypes = {
 	"Default": [
 		{"doctype": "Customer", "index": 0},
